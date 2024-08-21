@@ -1,5 +1,9 @@
 import { setTimeout } from "node:timers/promises";
 
+export const config = {
+  maxDuration: 1,
+};
+
 export default async function handler(request, response) {
   await setTimeout(2_000);
 

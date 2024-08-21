@@ -3,10 +3,10 @@
 ## on Vercel
 
 ```bash
-$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_DEPLOY_URL/api/api-app-segment-config"
-$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_DEPLOY_URL/api/api-app-conflicting-config"
-$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_DEPLOY_URL/api/api-pages-segment-config"
-$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_DEPLOY_URL/api/api-pages-conflicting-config"
+$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_URL/api/api-app-segment-config"
+$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_URL/api/api-app-conflicting-config"
+$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_URL/api/api-pages-segment-config"
+$ curl -o /dev/null -s -w 'Total: %{time_total}s\n' "$VERCEL_URL/api/api-pages-conflicting-config"
 ```
 
 ## local
