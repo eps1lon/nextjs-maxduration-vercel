@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "pages/api/api-pages-conflicting-config.tsx": {
+      "maxDuration": 1
+    },
+    "pages/api/api-pages-vercel-config.tsx": {
+      "maxDuration": 1
+    },
+    "app/api-app-conflicting-config/route.tsx": {
+      "maxDuration": 1
+    },
+    "app/api-app-vercel-config/route.tsx": {
+      "maxDuration": 1
+    }
+  }
+}
