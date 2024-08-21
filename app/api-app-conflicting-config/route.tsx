@@ -1,5 +1,6 @@
 import { setTimeout } from "node:timers/promises";
 
+export const dynamic = "force-dynamic";
 export const maxDuration = 3;
 
 export async function GET() {
